@@ -1,0 +1,69 @@
+public class UnitConverters {
+    public double kilometeresToMetres(double kilometres) {
+
+        return kilometres * 1000;
+    }
+
+
+    public double metresToKilometres(double metres) {
+
+        return metres / 1000;
+    }
+
+
+    public float milesToKilometres(float miles) {
+
+        return miles * 1.609F;
+    }
+
+    public float kilometresToMiles(float kilometres) {
+
+        return kilometres * 0.621F;
+    }
+
+    public double centimetresToInches(double centimetres) {
+
+    return centimetres * 0.393;
+    }
+
+    public double inchesToCentimetres(double inches) {
+
+        return inches * 2.54;
+    }
+
+    public double secondsToMinutes(double seconds) {
+
+        return seconds / 60;
+    }
+
+    public double minutesToHours(double minutes) {
+
+        return minutes / 60;
+    }
+
+    public double hoursToDays(double hours) {
+
+        return hours / 60;
+    }
+
+    public double daysToWeeks(double days) {
+
+        return days / 7;
+    }
+
+    public double weeksToMonths(double weeks) {
+
+        return weeks / 4.345;
+    }
+
+    public double monthsToCalendarYear(double months) {
+
+        return months / 12;
+    }
+
+    public double calendarYearsToDecade(double calendarYears) {
+
+        return calendarYears / 10;
+    }
+
+}
